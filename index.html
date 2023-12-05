@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Book Matching App</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <nav>
-      <h1>Book Matcher</h1>
-    </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Book Matching App</title>
+</head>
+<body>
+  <nav>
+    <h1>Book Matcher</h1>
+  </nav>
 
-    <main>
-      <div class="question-container">
-        <label for="answer1">Question 1:</label>
-        <input type="text" id="answer1" />
-      </div>
+  <main>
+    <div class="question-container">
+      <label for="answer1">Question 1:</label>
+      <input type="text" id="answer1">
+    </div>
 
-      <div class="question-container">
-        <label for="answer2">Question 2:</label>
-        <input type="text" id="answer2" />
-      </div>
+    <div class="question-container">
+      <label for="answer2">Question 2:</label>
+      <input type="text" id="answer2">
+    </div>
 
-      <button onclick="matchBooks()">Find Matches</button>
+    <button onclick="matchBooks()">Find Matches</button>
 
-      <div id="results">
-        <!-- Results will be displayed here -->
-      </div>
-    </main>
+    <div id="results">
+      <!-- Results will be displayed here -->
+    </div>
+  </main>
 
-    <script src="app.js"></script>
-  </body>
+  <script src="app.js"></script>
+</body>
 </html>

@@ -1,5 +1,15 @@
 {
+  "name": "book-matching-app",
+  "version": "1.0.0",
+  "description": "A simple book matching app",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
   "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
     "node-modules": "^1.0.1"
   }
 }
+
